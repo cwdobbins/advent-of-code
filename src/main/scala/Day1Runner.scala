@@ -3,14 +3,9 @@ import scala.io.Source
 object Day1Runner {
 
   def main(args: Array[String]) = {
-    for (line <- Source.fromFile("src/main/resources/day1/input").getLines()) {
+    for (line <- Source.fromFile("src/main/resources/input/day1").getLines()) {
       println(processCode(line))
     }
-
-//    println(processCode("1122"))
-//    println(processCode("1111"))
-//    println(processCode("1234"))
-//    println(processCode("912121299"))
   }
 
   class AccHelper(xacc: Int, xlast: Char) {

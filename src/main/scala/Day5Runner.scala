@@ -5,8 +5,6 @@ import scala.io.Source
 object Day5Runner {
 
   def main(args: Array[String]) = {
-
-    println(executeInstructions(Array(0, 3, 0, 1, -3))(_ => 1))
     assert(executeInstructions(Array(0, 3, 0, 1, -3)) (_ => 1) == 5)
     assert(executeInstructions(Array(0, 3, 0, 1, -3)) (jump => if (jump >= 3) -1 else 1 ) == 10)
 

@@ -3,18 +3,6 @@ import scala.annotation.tailrec
 object Day3Runner {
 
   def main(args: Array[String]) = {
-//    assert(calculateManhattanDist(1) == 0)
-//    assert(calculateManhattanDist(3) == 2)
-//    assert(calculateManhattanDist(2) == 1)
-//    assert(calculateManhattanDist(12) == 3)
-//    assert(calculateManhattanDist(23) == 2)
-//    assert(calculateManhattanDist(24) == 3)
-//    assert(calculateManhattanDist(25) == 4)
-//    assert(calculateManhattanDist(50) == 7)
-//    assert(calculateManhattanDist(51) == 6)
-//    assert(calculateManhattanDist(52) == 5)
-//    assert(calculateManhattanDist(54) == 5)
-//    assert(calculateManhattanDist(81) == 8)
 //    assert(calculateManhattanDist(79) == 6)
 //    assert(calculateManhattanDist(82) == 9)
 //    assert(calculateManhattanDist(1024) == 31)
@@ -49,4 +37,11 @@ object Day3Runner {
       -1
     )
   }
+
+//  def calculateNextLargestDigit(value: Int): Int = {
+//     def recursiveFindNeighborCount(index: Int): Unit = {
+//
+//     }
+//    return 0
+//  }
 }
